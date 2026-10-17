@@ -1,0 +1,8 @@
+
+streamlit
+pandas
+plotly
+feedparser
+python-dotenv
+google-genai
+vaderSentiment
