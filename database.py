@@ -3,6 +3,7 @@ import os
 import sqlite3
 import pandas as pd
 
+
 DB_PATH = os.getenv(
     "DATABASE_PATH",
     os.path.join(
@@ -10,8 +11,6 @@ DB_PATH = os.getenv(
         "news.db"
     )
 )
-
-
 
 def get_connection():
     return sqlite3.connect(DB_PATH)
